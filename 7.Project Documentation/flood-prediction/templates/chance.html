@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flood Prediction Result</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+
+</head>
+
+<body>
+
+<nav>
+
+    <div class="logo">
+        Floods Prediction
+    </div>
+
+    <ul>
+
+        <li><a href="/">Home</a></li>
+
+        <li><a href="/predict">Predict Floods</a></li>
+
+    </ul>
+
+</nav>
+
+<div class="result">
+
+    <h1>⚠ Flood Likely</h1>
+
+    <p>
+        The machine learning model predicts a high probability of flooding.
+        Please take necessary precautions and follow the guidance issued by local authorities.
+    </p>
+
+    <a href="/predict">
+        <button>Predict Again</button>
+    </a>
+
+</div>
+
+<script src="{{ url_for('static', filename='main.js') }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flood Prediction System</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="logo">
+            Floods Prediction
+        </div>
+
+        <ul>
+
+            <li><a href="/">Home</a></li>
+
+            <li><a href="/predict">Predict Floods</a></li>
+
+        </ul>
+
+    </nav>
+
+    <section class="hero">
+
+        <div class="overlay">
+
+            <h1>Introduction</h1>
+
+            <p>
+                Floods are one of the most destructive natural disasters.
+                This project predicts the possibility of floods using
+                Machine Learning algorithms based on rainfall and weather
+                conditions. The system helps authorities and communities
+                take preventive measures by providing early flood predictions.
+            </p>
+
+            <a href="/predict">
+
+                <button>Predict Flood</button>
+
+            </a>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
