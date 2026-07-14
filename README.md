@@ -200,9 +200,17 @@ http://127.0.0.1:5000/
 ## Application Pages
 
 - Home Page
+<img width="1907" height="911" alt="Screenshot 2026-07-13 165720" src="https://github.com/user-attachments/assets/9ee56df1-5485-4728-bb01-0d97ae19a629" />
+
 - Prediction Page
+<img width="1907" height="907" alt="Screenshot 2026-07-13 165751" src="https://github.com/user-attachments/assets/6cc58cf4-f021-4528-9d89-4efea2ca4af7" />
+
 - Flood Result Page
+<img width="1897" height="908" alt="Screenshot 2026-07-13 165936" src="https://github.com/user-attachments/assets/4fc2b76d-d061-4ca6-b3da-b60c85356c1e" />
+
 - No Flood Result Page
+<img width="1911" height="915" alt="Screenshot 2026-07-13 170047" src="https://github.com/user-attachments/assets/1eb0efee-df24-48e7-b973-9af6ecbdfed6" />
+
 
 ---
 
